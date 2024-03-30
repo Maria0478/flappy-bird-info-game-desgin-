@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 8370487773940803549}
   m_Layer: 0
   m_Name: 'pipes '
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,6 +176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21ce0752adc7b484ba6178d992b49aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 10
+  deadZone: -45
 --- !u!1 &7584836967106730800
 GameObject:
   m_ObjectHideFlags: 0

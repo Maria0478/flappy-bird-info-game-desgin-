@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "game desgin informatik.sln"
+    "dotnet.defaultSolution": "flappy-bird-info-game-desgin-.sln"
 }

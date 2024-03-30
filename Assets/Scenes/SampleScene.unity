@@ -276,7 +276,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &586601308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipe: {fileID: 3769386480032004513, guid: 7b0370069bf0f054497c536eab4d6193, type: 3}
-  spawnRate: 5
+  spawnRate: 3
   timer: 0
 --- !u!4 &987342478
 Transform:
