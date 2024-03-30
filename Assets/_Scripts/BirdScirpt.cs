@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Added for scene management
+
 
 public class BirdScript : MonoBehaviour
 {
@@ -48,7 +50,11 @@ public class BirdScript : MonoBehaviour
             Destroy(pipes[i]);
         }
 
+        print("game obj");
         Destroy(gameObject);
+        print("sean change");
+        // Change the scene here. Replace "YourSceneName" with the actual scene name
+        SceneManager.LoadScene("start");
 
     }
 
